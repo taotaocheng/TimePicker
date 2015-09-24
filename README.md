@@ -1,7 +1,8 @@
-##基于TimePicker滚轮控件
+##基于WheelView 的 TimePicker滚轮控件
 
-###desc（简述）: 
-自定义控件 TimePicker 实现滚轮效果。
+###（简述）: 
+根据 Wheelview 的TimePicker 实现滚轮效果。
+![TimePicker](https://github.com/chenxiruanhai/TimePicker/time_picker.jpg)
 
 # Attributes
 
