@@ -2,7 +2,7 @@
 
 ###（简述）: 
 根据 Wheelview 的TimePicker 实现滚轮效果。
-![TimePicker](https://github.com/chenxiruanhai/TimePicker/time_picker.jpg)
+![TimePicker](https://github.com/chenxiruanhai/TimePicker/blob/master/time_picker.jpg)
 
 # Attributes
 
