@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+    <TextView
+        android:id="@+id/picker_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/picker_title"
+        android:textColor="#ff6600"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DADADA" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:background="#F5F5F5"
+        android:orientation="horizontal">
+
+
+        <com.jp.wheelview.WheelView
+            android:id="@+id/year"
+            style="@style/wheelViewStyle" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA" />
+
+        <com.jp.wheelview.WheelView
+            android:id="@+id/month"
+            style="@style/wheelViewStyle" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA" />
+
+        <com.jp.wheelview.WheelView
+            android:id="@+id/day"
+            style="@style/wheelViewStyle" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA" />
+
+        <com.jp.wheelview.WheelView
+            android:id="@+id/hour"
+            style="@style/wheelViewStyle" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DADADA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12"
+        android:paddingTop="@dimen/dimen_12">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_44"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginRight="@dimen/dimen_20"
+            android:layout_weight="1"
+            android:background="@drawable/btn_left_selector"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_44"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:layout_weight="1"
+            android:background="@drawable/btn_post_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DADADA" />
+</LinearLayout>
